@@ -7,9 +7,9 @@ function Selected({setCreditTerm,setCarYear,setOtKuchi,setCity}) {
                     onChange={(e) => setCreditTerm(e.target.value)}
                     aria-label="Default select example">
                 <option value={""} hidden>Срок кредита</option>
-                <option value="36">36 oy</option>
-                <option value="48">48 oy</option>
-                <option value="60">60 oy</option>
+                <option value="36">36 месяц</option>
+                <option value="48">48 месяц</option>
+                <option value="60">60 месяц</option>
             </select>
             <select className="select form-select mt-3"
                     onChange={(e) => setCarYear(e.target.value)}
